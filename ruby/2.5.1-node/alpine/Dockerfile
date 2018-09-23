@@ -1,7 +1,7 @@
 FROM ruby:2.5.1-alpine
 
 ENV NODE_VERSION 8.11.1
-ENV YARN_VERSION 1.5.1
+ENV YARN_VERSION 1.9.4
 
 RUN addgroup -g 1000 node \
     && adduser -u 1000 -G node -s /bin/sh -D node \

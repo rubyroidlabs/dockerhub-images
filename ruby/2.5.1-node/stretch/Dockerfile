@@ -1,7 +1,7 @@
 FROM ruby:2.5.1-stretch
 
 ENV NODE_VERSION 8.11.1
-ENV YARN_VERSION 1.5.1
+ENV YARN_VERSION 1.9.4
 
 RUN groupadd --gid 1000 node \
   && useradd --uid 1000 --gid node --shell /bin/bash --create-home node
